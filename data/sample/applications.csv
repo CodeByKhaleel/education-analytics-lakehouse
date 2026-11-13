@@ -1,0 +1,21 @@
+application_id,student_id,course_id,intake,application_date,application_status,application_fee_paid,updated_at
+5001,2001,1001,September 2026,2026-01-10,submitted,true,2026-01-10
+5002,2002,1002,January 2027,2026-02-15,under_review,true,2026-02-18
+5003,2003,1004,September 2026,2026-01-20,offer_made,true,2026-02-01
+5004,2004,1005,May 2027,2026-03-05,rejected,true,2026-03-20
+5005,2005,1006,September 2026,2026-02-12,enrolled,true,2026-04-01
+5006,2006,1007,January 2027,2026-03-10,submitted,false,2026-03-10
+5007,2007,1008,September 2026,2026-01-25,offer_made,true,2026-02-15
+5008,2008,1009,January 2027,2026-02-28,under_review,true,2026-03-05
+5009,2009,1010,September 2026,2026-01-15,enrolled,true,2026-03-01
+5010,2010,1011,May 2027,2026-03-18,submitted,false,2026-03-18
+5011,2011,1012,September 2026,2026-02-05,rejected,true,2026-02-25
+5012,2012,1013,January 2027,2026-03-12,offer_made,true,2026-03-25
+5013,2013,1014,September 2026,2026-01-30,under_review,true,2026-02-10
+5014,2014,1015,May 2027,2026-03-22,submitted,true,2026-03-22
+5015,2015,1016,September 2026,2026-02-17,enrolled,true,2026-04-05
+5016,2016,1017,January 2027,2026-03-08,submitted,false,2026-03-08
+5017,2017,1018,September 2026,2026-02-20,offer_made,true,2026-03-02
+5018,2018,1019,May 2027,2026-03-25,under_review,true,2026-03-30
+5019,2019,1020,September 2026,2026-01-18,rejected,true,2026-02-02
+5020,2020,1003,January 2027,2026-03-28,submitted,false,2026-03-28
