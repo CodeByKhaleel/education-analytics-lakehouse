@@ -1,0 +1,21 @@
+course_id,university_id,course_name,degree_level,duration_years,annual_tuition_fee,currency,is_active,updated_at
+1001,101,Computer Science,Masters,1,38000,GBP,true,2026-10-01
+1002,101,Data Science,Masters,1,40000,GBP,true,2026-10-02
+1003,101,Economics,Bachelors,3,32000,GBP,true,2026-10-03
+1004,102,Artificial Intelligence,Masters,2,48000,CAD,true,2026-10-04
+1005,102,Software Engineering,Masters,2,46000,CAD,true,2026-10-05
+1006,103,Information Technology,Masters,2,44000,AUD,true,2026-10-06
+1007,103,Business Analytics,Masters,2,43000,AUD,true,2026-10-07
+1008,104,Computer Engineering,Bachelors,4,35000,USD,true,2026-10-08
+1009,104,Data Analytics,Masters,1,37000,USD,true,2026-10-09
+1010,105,Artificial Intelligence,Masters,1,30000,GBP,true,2026-10-10
+1011,105,Mechanical Engineering,Bachelors,3,27000,GBP,true,2026-10-11
+1012,106,Environmental Science,Masters,2,31000,CAD,true,2026-10-12
+1013,107,Data Science,Masters,2,42000,AUD,true,2026-10-13
+1014,108,Cyber Security,Masters,1,29000,GBP,true,2026-10-14
+1015,109,Computer Science,Masters,2,45000,USD,false,2026-10-15
+1016,110,Business Administration,Masters,2,46000,AUD,true,2026-10-16
+1017,110,Information Systems,Masters,2,44000,AUD,true,2026-10-17
+1018,101,Mathematics,Bachelors,3,31000,GBP,true,2026-10-18
+1019,102,Finance,Masters,2,45000,CAD,true,2026-10-19
+1020,105,Data Science,Masters,1,31000,GBP,true,2026-10-20
