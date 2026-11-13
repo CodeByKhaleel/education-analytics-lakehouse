@@ -1,0 +1,11 @@
+university_id,university_name,country,city,ranking,tuition_fee,currency,is_partner,updated_at
+101,University of Oxford,United Kingdom,Oxford,3,35000,GBP,true,2026-10-01
+102,University of Toronto,Canada,Toronto,25,45000,CAD,true,2026-10-05
+103,University of Melbourne,Australia,Melbourne,19,42000,AUD,true,2026-10-08
+104,Arizona State University,USA,Tempe,200,32000,USD,true,2026-10-10
+105,University of Manchester,United Kingdom,Manchester,35,28000,GBP,true,2026-10-12
+106,University of Alberta,Canada,Edmonton,96,30000,CAD,false,2026-10-15
+107,Monash University,Australia,Melbourne,37,41000,AUD,true,2026-10-18
+108,University of Leeds,United Kingdom,Leeds,86,26000,GBP,true,2026-10-20
+109,University of California Los Angeles,USA,Los Angeles,18,43000,USD,false,2026-10-22
+110,University of Sydney,Australia,Sydney,18,44000,AUD,true,2026-10-25
