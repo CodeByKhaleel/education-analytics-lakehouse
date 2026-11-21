@@ -1,21 +1,301 @@
 course_id,university_id,course_name,degree_level,duration_years,annual_tuition_fee,currency,is_active,updated_at
-1001,101,Computer Science,Masters,1,38000,GBP,true,2026-10-01
-1002,101,Data Science,Masters,1,40000,GBP,true,2026-10-02
-1003,101,Economics,Bachelors,3,32000,GBP,true,2026-10-03
-1004,102,Artificial Intelligence,Masters,2,48000,CAD,true,2026-10-04
-1005,102,Software Engineering,Masters,2,46000,CAD,true,2026-10-05
-1006,103,Information Technology,Masters,2,44000,AUD,true,2026-10-06
-1007,103,Business Analytics,Masters,2,43000,AUD,true,2026-10-07
-1008,104,Computer Engineering,Bachelors,4,35000,USD,true,2026-10-08
-1009,104,Data Analytics,Masters,1,37000,USD,true,2026-10-09
-1010,105,Artificial Intelligence,Masters,1,30000,GBP,true,2026-10-10
-1011,105,Mechanical Engineering,Bachelors,3,27000,GBP,true,2026-10-11
-1012,106,Environmental Science,Masters,2,31000,CAD,true,2026-10-12
-1013,107,Data Science,Masters,2,42000,AUD,true,2026-10-13
-1014,108,Cyber Security,Masters,1,29000,GBP,true,2026-10-14
-1015,109,Computer Science,Masters,2,45000,USD,false,2026-10-15
-1016,110,Business Administration,Masters,2,46000,AUD,true,2026-10-16
-1017,110,Information Systems,Masters,2,44000,AUD,true,2026-10-17
-1018,101,Mathematics,Bachelors,3,31000,GBP,true,2026-10-18
-1019,102,Finance,Masters,2,45000,CAD,true,2026-10-19
-1020,105,Data Science,Masters,1,31000,GBP,true,2026-10-20
+2001.0,101,Computer Science (2026),Bachelors,2,11816.73,INR,true,2026-07-17
+2002.0,102,Data Science (2027),Masters,4,7466.89,INR,false,2026-03-08
+2003.0,103,Business Analytics (2028),PhD,2,25178.47,INR,true,2026-09-13
+2004.0,104,Mechanical Engineering (2029),Diploma,5,34528.45,GBP,true,2026-06-04
+2005.0,105,Electrical Engineering (2030),Postgraduate,2,30096.6,GBP,true,2026-07-30
+2006.0,106,Cybersecurity (2026),Bachelors,1,9469.29,USD,false,2026-08-14
+2007.0,107,Artificial Intelligence (2027),Masters,2,34181.25,USD,false,2026-01-29
+2008.0,108,Civil Engineering (2028),PhD,4,36086.26,CAD,false,2026-04-20
+2009.0,109,Public Health (2029),Diploma,1,27849.84,CAD,false,2026-01-12
+2010.0,110,Pharmacy (2030),Postgraduate,5,11232.61,AUD,false,2026-05-17
+2011.0,111,Information Systems (2026),Bachelors,1,25802.66,AUD,false,2026-05-01
+2012.0,112,Biomedical Engineering (2027),Masters,5,32520.56,EUR,true,2026-04-04
+2013.0,113,Computer Science (2028),PhD,3,36478.55,EUR,true,2026-02-01
+2014.0,114,Data Science (2029),Diploma,1,21446.8,EUR,true,2026-09-24
+2015.0,115,Business Analytics (2030),Postgraduate,4,5536.98,EUR,true,2026-10-23
+2016.0,116,Mechanical Engineering (2026),Bachelors,3,26607.81,NZD,false,2026-05-03
+2017.0,117,Electrical Engineering (2027),Masters,5,36352.71,SGD,true,2026-03-09
+2018.0,118,Cybersecurity (2028),PhD,4,13967.67,MYR,false,2026-04-01
+2019.0,119,Artificial Intelligence (2029),Diploma,3,9997.8,AED,true,2026-02-05
+2020.0,120,Civil Engineering (2030),Postgraduate,4,37303.33,EUR,false,2026-07-30
+2021.0,121,Public Health (2026),Bachelors,5,34920.8,INR,false,2026-05-25
+2022.0,122,Pharmacy (2027),Masters,2,34443.24,INR,false,2026-05-01
+2023.0,123,Information Systems (2028),PhD,1,37260.28,INR,false,2026-10-11
+2024.0,124,Biomedical Engineering (2029),Diploma,1,21584.44,GBP,false,2026-05-01
+2025.0,125,Computer Science (2030),Postgraduate,4,23366.12,GBP,true,2026-08-25
+2026.0,126,Data Science (2026),Bachelors,3,18289.29,USD,false,2026-03-16
+2027.0,127,Business Analytics (2027),Masters,4,10838.01,USD,true,2026-02-23
+2028.0,128,Mechanical Engineering (2028),PhD,5,23351.99,CAD,false,2026-08-05
+2029.0,129,Electrical Engineering (2029),Diploma,1,30102.99,CAD,false,2026-07-10
+2030.0,130,Cybersecurity (2030),Postgraduate,3,33815.01,AUD,false,2026-05-07
+2031.0,131,Artificial Intelligence (2026),Bachelors,5,15323.15,AUD,true,2026-07-11
+2032.0,132,Civil Engineering (2027),Masters,2,16646.9,EUR,true,2026-04-25
+2009.0,133,Public Health (2028),PhD,2,16970.73,EUR,true,2026-08-01
+2034.0,134,Pharmacy (2029),Diploma,1,5408.94,EUR,true,2026-02-27
+2035.0,135,Information Systems (2030),Postgraduate,3,11246.95,EUR,false,2026-04-01
+2036.0,136,Biomedical Engineering (2026),Bachelors,2,32477.18,NZD,false,2026-02-13
+2037.0,137,Computer Science (2027),Masters,1,16868.15,SGD,false,2026-09-01
+2038.0,138,Data Science (2028),PhD,4,12460.0,MYR,false,2026-04-10
+2039.0,139,Business Analytics (2029),Diploma,3,16558.68,AED,true,2026-04-02
+2040.0,140,Mechanical Engineering (2030),Postgraduate,2,13688.06,EUR,false,2026-05-08
+2041.0,141,Electrical Engineering (2026),Bachelors,3,21373.9,INR,true,2026-03-14
+2042.0,142,Cybersecurity (2027),Masters,4,11820.21,INR,true,2026-06-21
+2043.0,143,Artificial Intelligence (2028),PhD,2,29033.34,INR,false,2026-02-09
+2044.0,144,Civil Engineering (2029),Diploma,1,19468.51,GBP,true,2026-05-18
+2045.0,145,Public Health (2030),Postgraduate,1,36452.07,GBP,false,2026-07-31
+2046.0,146,Pharmacy (2026),Bachelors,5,26251.29,USD,false,2026-10-24
+2047.0,147,Information Systems (2027),Masters,5,29699.63,USD,true,2026-06-07
+2048.0,148,Biomedical Engineering (2028),PhD,5,34001.45,CAD,true,2026-01-25
+2049.0,99999,Computer Science (2029),Diploma,3,14086.68,CAD,true,2026-07-20
+2050.0,150,Data Science (2030),Postgraduate,5,17321.68,AUD,true,2026-03-23
+2051.0,151,Business Analytics (2026),Bachelors,3,27998.22,AUD,false,2026-07-22
+2052.0,152,Mechanical Engineering (2027),Masters,2,18716.57,EUR,true,2026-06-06
+2053.0,153,Electrical Engineering (2028),PhD,4,20730.71,EUR,false,2026-02-16
+2054.0,154,Cybersecurity (2029),Diploma,5,13503.1,EUR,false,2026-10-22
+2055.0,155,Artificial Intelligence (2030),Postgraduate,4,7228.78,EUR,true,2026-05-06
+2056.0,156,Civil Engineering (2026),Bachelors,5,27547.56,NZD,false,2026-01-17
+2057.0,157,Public Health (2027),Masters,2,26418.33,SGD,true,2026-05-12
+2058.0,158,Pharmacy (2028),PhD,5,6489.91,MYR,false,2026-09-11
+2059.0,159,Information Systems (2029),Diploma,3,24808.77,AED,true,2026-02-02
+2060.0,160,Biomedical Engineering (2030),Postgraduate,1,27404.29,EUR,false,2026-05-04
+2061.0,161,Computer Science (2026),Bachelors,3,6596.56,INR,true,2026-03-05
+2062.0,162,Data Science (2027),Masters,1,37290.81,INR,true,2026-07-25
+2063.0,163,Business Analytics (2028),PhD,4,6069.85,INR,false,2026-04-23
+2064.0,164,Mechanical Engineering (2029),Diploma,2,31373.27,GBP,false,2026-06-18
+2065.0,165,Electrical Engineering (2030),Postgraduate,3,22471.7,GBP,false,2026-01-31
+2066.0,166,Cybersecurity (2026),Bachelors,3,24294.39,USD,false,2026-05-27
+2067.0,167,,Masters,5,34595.87,USD,false,2026-01-13
+2068.0,168,Civil Engineering (2028),PhD,2,17533.8,CAD,false,2026-09-09
+2069.0,169,Public Health (2029),Diploma,5,11613.57,CAD,true,2026-09-06
+2070.0,170,Pharmacy (2030),Postgraduate,4,28528.34,AUD,false,2026-04-04
+2071.0,171,Information Systems (2026),Bachelors,5,32301.8,AUD,false,2026-09-11
+2072.0,172,Biomedical Engineering (2027),Masters,4,36721.48,EUR,true,2026-06-29
+2073.0,173,Computer Science (2028),PhD,2,32405.97,EUR,true,2026-04-02
+2074.0,174,Data Science (2029),Diploma,4,19353.39,EUR,false,2026-05-13
+2075.0,175,Business Analytics (2030),Postgraduate,4,31660.03,EUR,true,2026-10-25
+2076.0,176,Mechanical Engineering (2026),Bachelors,4,26398.59,NZD,true,2026-03-01
+2077.0,177,Electrical Engineering (2027),Masters,2,18055.09,SGD,false,2026-01-10
+2078.0,178,Cybersecurity (2028),PhD,1,28049.44,MYR,false,2026-08-24
+2079.0,179,Artificial Intelligence (2029),Diploma,1,29619.22,AED,false,2026-04-01
+2080.0,180,Civil Engineering (2030),Postgraduate,3,23371.72,EUR,true,2026-09-26
+2081.0,181,Public Health (2026),Bachelors,3,22590.45,INR,true,2026-01-07
+2082.0,182,Pharmacy (2027),ExecutiveWhatever,5,17353.3,INR,true,2026-10-17
+2083.0,183,Information Systems (2028),PhD,5,21656.13,INR,true,2026-08-19
+2084.0,184,Biomedical Engineering (2029),Diploma,1,8303.89,GBP,false,2026-04-17
+2085.0,185,Computer Science (2030),Postgraduate,5,25775.76,GBP,false,2026-06-08
+2086.0,186,Data Science (2026),Bachelors,2,9282.47,USD,false,2026-05-29
+2087.0,187,Business Analytics (2027),Masters,3,11646.08,USD,false,2026-08-09
+2088.0,188,Mechanical Engineering (2028),PhD,4,34328.71,CAD,true,2026-09-14
+2089.0,189,Electrical Engineering (2029),Diploma,3,8198.2,CAD,false,2026-05-13
+2090.0,190,Cybersecurity (2030),Postgraduate,2,34395.57,AUD,true,2026-10-26
+2091.0,191,Artificial Intelligence (2026),Bachelors,3,34768.02,AUD,false,2026-05-07
+2092.0,192,Civil Engineering (2027),Masters,4,31790.26,EUR,false,2026-09-26
+2093.0,193,Public Health (2028),PhD,1,7626.3,EUR,true,2026-04-21
+2094.0,194,Pharmacy (2029),Diploma,4,35493.67,EUR,true,2026-10-28
+2095.0,195,Information Systems (2030),Postgraduate,3,24848.07,EUR,false,2026-05-23
+2096.0,196,Biomedical Engineering (2026),Bachelors,5,11912.8,NZD,false,2026-05-22
+2097.0,197,Computer Science (2027),Masters,3,24821.0,SGD,false,2026-08-23
+2098.0,198,Data Science (2028),PhD,two,34775.07,MYR,false,2026-08-24
+2099.0,199,Business Analytics (2029),Diploma,5,18256.69,AED,true,2026-05-18
+2100.0,200,Mechanical Engineering (2030),Postgraduate,3,20304.87,EUR,true,2026-06-24
+2101.0,201,Electrical Engineering (2026),Bachelors,5,19962.36,INR,false,2026-08-23
+2102.0,202,Cybersecurity (2027),Masters,5,7536.86,INR,false,2026-02-27
+2103.0,203,Artificial Intelligence (2028),PhD,4,36569.5,INR,false,2026-06-23
+2104.0,204,Civil Engineering (2029),Diploma,3,13669.21,GBP,true,2026-02-22
+2105.0,205,Public Health (2030),Postgraduate,1,9488.17,GBP,false,2026-09-22
+2106.0,206,Pharmacy (2026),Bachelors,4,19282.2,USD,false,2026-04-27
+2107.0,207,Information Systems (2027),Masters,5,12283.1,USD,false,2026-02-24
+2108.0,208,Biomedical Engineering (2028),PhD,4,23590.51,CAD,true,2026-06-22
+2109.0,209,Computer Science (2029),Diploma,5,36109.03,CAD,false,2026-08-07
+2110.0,210,Data Science (2030),Postgraduate,4,12059.94,AUD,false,2026-06-17
+2111.0,211,Business Analytics (2026),Bachelors,2,11537.38,AUD,false,2026-02-03
+2112.0,212,Mechanical Engineering (2027),Masters,2,25125.51,EUR,true,2026-08-19
+2113.0,213,Electrical Engineering (2028),PhD,2,9459.85,EUR,true,2026-01-08
+2114.0,214,Cybersecurity (2029),Diploma,3,free-ish,EUR,false,2026-04-07
+2115.0,215,Artificial Intelligence (2030),Postgraduate,3,17663.67,EUR,true,2026-07-22
+2116.0,216,Civil Engineering (2026),Bachelors,4,5616.0,NZD,false,2026-07-11
+2117.0,217,Public Health (2027),Masters,2,6493.23,SGD,false,2026-09-25
+2118.0,218,Pharmacy (2028),PhD,5,9130.12,MYR,false,2026-03-04
+2119.0,219,Information Systems (2029),Diploma,2,19285.84,AED,false,2026-03-01
+2120.0,220,Biomedical Engineering (2030),Postgraduate,2,31157.13,EUR,true,2026-08-12
+2121.0,221,Computer Science (2026),Bachelors,5,37412.07,INR,true,2026-09-22
+2122.0,222,Data Science (2027),Masters,2,8518.63,INR,false,2026-03-09
+2123.0,223,Business Analytics (2028),PhD,1,29847.51,INR,false,2026-01-21
+2124.0,224,Mechanical Engineering (2029),Diploma,5,16951.07,GBP,true,2026-04-05
+2125.0,225,Electrical Engineering (2030),Postgraduate,1,32866.59,GBP,false,2026-02-15
+2126.0,226,Cybersecurity (2026),Bachelors,2,18693.52,USD,true,2026-08-26
+2127.0,227,Artificial Intelligence (2027),Masters,5,13505.54,USD,false,2026-01-29
+2128.0,228,Civil Engineering (2028),PhD,4,22391.37,CAD,true,2026-01-03
+2129.0,229,Public Health (2029),Diploma,5,31863.23,CAD,false,2026-01-15
+2130.0,230,Pharmacy (2030),Postgraduate,1,22263.09,AUD,yes/no,2026-09-13
+2131.0,231,Information Systems (2026),Bachelors,2,18956.6,AUD,true,2026-04-10
+2132.0,232,Biomedical Engineering (2027),Masters,5,15294.77,EUR,true,2026-08-21
+2133.0,233,Computer Science (2028),PhD,2,11200.06,EUR,false,2026-06-06
+2134.0,234,Data Science (2029),Diploma,4,14002.04,EUR,false,2026-07-06
+2135.0,235,Business Analytics (2030),Postgraduate,2,37721.73,EUR,true,2026-05-24
+2136.0,236,Mechanical Engineering (2026),Bachelors,5,25020.12,NZD,true,2026-04-24
+2137.0,237,Electrical Engineering (2027),Masters,4,12494.7,SGD,false,2026-04-16
+2138.0,238,Cybersecurity (2028),PhD,4,17660.01,MYR,true,2026-01-29
+2139.0,239,Artificial Intelligence (2029),Diploma,2,16443.21,AED,false,2026-03-17
+2140.0,240,Civil Engineering (2030),Postgraduate,5,27717.97,EUR,true,2026-04-23
+2141.0,241,Public Health (2026),Bachelors,3,33976.01,INR,true,2026-04-16
+2142.0,242,Pharmacy (2027),Masters,4,9683.92,INR,false,2026-07-19
+2143.0,243,Information Systems (2028),PhD,2,37623.81,INR,true,2026-01-10
+2144.0,244,Biomedical Engineering (2029),Diploma,1,14544.56,GBP,true,2026-07-24
+2145.0,245,Computer Science (2030),Postgraduate,1,18443.79,GBP,false,2026-04-06
+2146.0,246,Data Science (2026),Bachelors,2,28893.15,USD,false,2026-10-10
+2147.0,247,Business Analytics (2027),Masters,4,11077.45,USD,true,2026/99/44
+2148.0,248,Mechanical Engineering (2028),PhD,1,16038.49,CAD,false,2026-04-19
+2149.0,249,Electrical Engineering (2029),Diploma,3,27134.25,CAD,false,2026-09-09
+2150.0,250,Cybersecurity (2030),Postgraduate,5,34258.2,AUD,true,2026-02-26
+2151.0,251,Artificial Intelligence (2026),Bachelors,2,10622.17,AUD,false,2026-07-30
+2152.0,252,Civil Engineering (2027),Masters,2,34016.68,EUR,true,2026-07-24
+2153.0,253,Public Health (2028),PhD,4,8242.02,EUR,false,2026-10-23
+2154.0,254,Pharmacy (2029),Diploma,2,35098.08,EUR,true,2026-06-16
+2155.0,255,Information Systems (2030),Postgraduate,5,34109.84,EUR,true,2026-04-10
+2156.0,256,Biomedical Engineering (2026),Bachelors,5,6746.89,NZD,false,2026-05-24
+2157.0,257,Computer Science (2027),Masters,2,23025.89,SGD,false,2026-04-21
+2158.0,258,Data Science (2028),PhD,2,13140.18,MYR,true,2026-02-02
+2159.0,259,Business Analytics (2029),Diploma,5,6408.23,AED,true,2026-07-24
+2160.0,260,Mechanical Engineering (2030),Postgraduate,2,13945.73,EUR,true,2026-04-13
+2161.0,261,Electrical Engineering (2026),Bachelors,4,5243.9,INR,false,2026-05-13
+2162.0,262,Cybersecurity (2027),Masters,5,16089.88,INR,true,2026-07-21
+2163.0,263,Artificial Intelligence (2028),PhD,3,33801.72,INR,false,2026-03-02
+2164.0,264,Civil Engineering (2029),Diploma,3,11272.99,DOLLARS,true,2026-10-03
+2165.0,265,Public Health (2030),Postgraduate,1,20262.92,GBP,false,2026-01-03
+2166.0,266,Pharmacy (2026),Bachelors,4,11930.41,USD,true,2026-04-20
+2167.0,267,Information Systems (2027),Masters,3,33958.83,USD,false,2026-03-31
+2168.0,268,Biomedical Engineering (2028),PhD,5,34468.04,CAD,false,2026-06-16
+2169.0,269,Computer Science (2029),Diploma,5,26494.76,CAD,true,2026-10-21
+2170.0,270,Data Science (2030),Postgraduate,2,9101.86,AUD,false,2026-06-28
+2171.0,271,Business Analytics (2026),Bachelors,3,5610.02,AUD,true,2026-09-29
+2172.0,272,Mechanical Engineering (2027),Masters,5,28865.99,EUR,true,2026-08-17
+2173.0,273,Electrical Engineering (2028),PhD,3,27852.83,EUR,false,2026-08-30
+2174.0,274,Cybersecurity (2029),Diploma,5,33002.82,EUR,false,2026-06-03
+2175.0,275,Artificial Intelligence (2030),Postgraduate,1,25861.67,EUR,true,2026-06-12
+2176.0,276,Civil Engineering (2026),Bachelors,3,26265.13,NZD,true,2026-07-13
+2177.0,277,Public Health (2027),Masters,1,14890.66,SGD,false,2026-03-28
+2178.0,278,Pharmacy (2028),PhD,1,18269.97,MYR,false,2026-06-25
+2179.0,279,Information Systems (2029),Diploma,5,19804.28,AED,false,2026-01-22
+2180.0,280,Biomedical Engineering (2030),Postgraduate,5,30211.58,EUR,false,2026-02-24
+2181.0,281,Computer Science (2026),Bachelors,4,29880.01,INR,false,2026-03-22
+2182.0,282,Data Science (2027),Masters,1,10303.94,INR,true,2026-08-14
+2183.0,283,Business Analytics (2028),PhD,2,31944.53,INR,true,2026-08-12
+2184.0,284,Mechanical Engineering (2029),Diploma,2,35827.04,GBP,false,2026-01-26
+2185.0,285,Electrical Engineering (2030),Postgraduate,-2,18608.88,GBP,true,2026-03-31
+2186.0,286,Cybersecurity (2026),Bachelors,2,19566.03,USD,true,2026-01-17
+2187.0,287,Artificial Intelligence (2027),Masters,5,9101.35,USD,false,2026-07-16
+2188.0,288,Civil Engineering (2028),PhD,2,14737.22,CAD,true,2026-03-25
+2189.0,289,Public Health (2029),Diploma,5,34869.02,CAD,false,2026-08-05
+2190.0,290,Pharmacy (2030),Postgraduate,5,20042.87,AUD,false,2026-06-18
+2191.0,291,Information Systems (2026),Bachelors,3,22315.38,AUD,true,2026-07-12
+2192.0,292,Biomedical Engineering (2027),Masters,1,8066.41,EUR,true,2026-07-28
+2193.0,293,Computer Science (2028),PhD,5,28361.07,EUR,false,2026-06-14
+2194.0,294,Data Science (2029),Diploma,1,13742.52,EUR,true,2026-03-16
+2195.0,295,Business Analytics (2030),Postgraduate,2,36978.09,EUR,true,2026-05-25
+2196.0,296,Mechanical Engineering (2026),Bachelors,3,26715.68,NZD,true,2026-05-23
+2197.0,297,Electrical Engineering (2027),Masters,5,34692.89,SGD,false,2026-09-09
+2198.0,298,Cybersecurity (2028),PhD,3,30957.78,MYR,true,2026-03-24
+2199.0,299,Artificial Intelligence (2029),Diploma,4,8634.47,AED,true,2026-03-05
+2200.0,300,Civil Engineering (2030),Postgraduate,5,24900.38,EUR,true,2026-06-11
+2201.0,301,Public Health (2026),Bachelors,2,26994.23,INR,false,2026-05-09
+2202.0,302,Pharmacy (2027),Masters,2,35885.83,US DOLLAR,true,2026-02-04
+2203.0,303,Information Systems (2028),PhD,5,31059.82,INR,true,2026-07-24
+2204.0,304,Biomedical Engineering (2029),Diploma,5,19715.95,GBP,false,2026-01-19
+2205.0,305,Computer Science (2030),Postgraduate,1,29461.32,GBP,true,2026-05-06
+2206.0,306,Data Science (2026),Bachelors,4,34461.75,USD,true,2026-09-01
+2207.0,307,Business Analytics (2027),Masters,4,12045.02,USD,false,2026-05-18
+,308,Mechanical Engineering (2028),PhD,5,16977.42,CAD,true,2026-02-28
+2209.0,309,Electrical Engineering (2029),Diploma,4,36226.06,CAD,false,2026-05-18
+2210.0,310,Cybersecurity (2030),Postgraduate,3,9527.44,AUD,true,2026-05-06
+2211.0,311,Artificial Intelligence (2026),Bachelors,5,11423.51,AUD,true,2026-04-27
+2212.0,312,Civil Engineering (2027),Masters,3,13370.64,EUR,true,2026-03-06
+2213.0,313,Public Health (2028),PhD,5,23475.98,EUR,false,2026-04-27
+2214.0,314,Pharmacy (2029),Diploma,2,36625.64,EUR,true,2026-08-20
+2215.0,315,Information Systems (2030),Postgraduate,1,18546.76,EUR,true,2026-01-27
+2216.0,316,Biomedical Engineering (2026),Bachelors,3,12071.87,NZD,false,2026-01-19
+2217.0,317,Computer Science (2027),Masters,2,14170.83,SGD,false,2026-02-05
+2218.0,318,Data Science (2028),PhD,1,14055.57,MYR,true,2026-09-17
+2219.0,319,Business Analytics (2029),Diploma,1,12155.01,AED,false,2026-02-03
+2220.0,320,Mechanical Engineering (2030),Postgraduate,1,5613.68,EUR,false,2026-07-10
+2221.0,321,Electrical Engineering (2026),Bachelors,1,6654.84,INR,true,2026-02-17
+2222.0,322,Cybersecurity (2027),Masters,3,20174.93,INR,false,2026-04-20
+2223.0,323,Artificial Intelligence (2028),PhD,4,5595.9,INR,true,2026-10-17
+2224.0,324,Civil Engineering (2029),Diploma,2,15287.32,GBP,true,2026-03-10
+2225.0,325,Public Health (2030),Postgraduate,2,16135.34,GBP,false,2026-08-05
+2226.0,326,Pharmacy (2026),Bachelors,5,14498.05,USD,false,2026-02-08
+2227.0,327,Information Systems (2027),Masters,2,30196.68,USD,true,2026-06-29
+2228.0,328,Biomedical Engineering (2028),PhD,2,15373.28,CAD,false,2026-10-17
+2229.0,329,Computer Science (2029),Diploma,3,24058.81,CAD,false,2026-10-04
+2230.0,330,Data Science (2030),Postgraduate,1,7859.44,AUD,false,2026-04-04
+2231.0,331,Business Analytics (2026),Bachelors,2,9576.7,AUD,true,2026-06-08
+2232.0,332,Mechanical Engineering (2027),Masters,4,,EUR,false,2026-05-05
+2233.0,333,Electrical Engineering (2028),PhD,5,20404.24,EUR,false,2026-08-09
+2234.0,334,Cybersecurity (2029),Diploma,5,13857.97,EUR,true,2026-07-09
+2235.0,335,Artificial Intelligence (2030),Postgraduate,3,23512.11,EUR,false,2026-06-13
+2236.0,336,Civil Engineering (2026),Bachelors,3,16070.61,NZD,true,2026-08-11
+2237.0,337,Public Health (2027),Masters,3,29373.61,SGD,true,2026-05-28
+2238.0,338,Pharmacy (2028),PhD,3,21194.81,MYR,true,2026-03-29
+2239.0,339,Information Systems (2029),Diploma,5,30293.87,AED,true,2026-05-03
+2240.0,340,Biomedical Engineering (2030),Postgraduate,4,12733.63,EUR,false,2026-03-22
+2241.0,341,Computer Science (2026),Bachelors,2,19038.58,INR,true,2026-04-13
+2242.0,342,Data Science (2027),Masters,1,10028.03,INR,false,2026-09-11
+2243.0,343,Business Analytics (2028),PhD,5,5366.22,INR,false,2026-03-01
+2244.0,344,Mechanical Engineering (2029),Diploma,2,7106.85,GBP,false,2026-05-30
+2245.0,345,Electrical Engineering (2030),Postgraduate,3,29975.39,GBP,false,2026-08-17
+2246.0,346,Cybersecurity (2026),Bachelors,2,6163.77,USD,true,2026-03-02
+2247.0,347,Artificial Intelligence (2027),Masters,3,34830.64,USD,true,2026-05-07
+2248.0,348,Civil Engineering (2028),PhD,5,16661.63,CAD,true,2026-02-16
+2249.0,349,Public Health (2029),Diploma,2,26172.48,CAD,false,2026-07-19
+2250.0,350,Pharmacy (2030),Postgraduate,3,35889.74,AUD,true,2026-01-22
+2251.0,351,Information Systems (2026),Bachelors,1,19040.59,AUD,false,2026-05-04
+2252.0,352,Biomedical Engineering (2027),Masters,2,37090.54,EUR,false,2026-06-08
+2253.0,353,Computer Science (2028),PhD,1,9891.0,EUR,false,2026-04-20
+2254.0,354,Data Science (2029),Diploma,3,28520.42,EUR,true,2026-02-10
+2255.0,355,Business Analytics (2030),Postgraduate,1,13684.49,EUR,false,2026-04-08
+2256.0,356,Mechanical Engineering (2026),Bachelors,4,27209.53,NZD,false,2026-02-19
+2257.0,357,Electrical Engineering (2027),Masters,2,9627.7,SGD,true,2026-03-29
+2258.0,358,Cybersecurity (2028),PhD,1,5282.22,MYR,false,2026-06-07
+2259.0,359,Artificial Intelligence (2029),Diploma,3,36373.14,AED,true,2026-10-12
+2260.0,360,Civil Engineering (2030),Postgraduate,5,11444.77,EUR,true,2026-03-18
+2261.0,361,Public Health (2026),Bachelors,1,33936.41,INR,true,2026-08-23
+2262.0,362,Pharmacy (2027),Masters,2,18920.82,INR,false,2026-05-09
+2263.0,363,Information Systems (2028),PhD,2,17439.65,INR,true,2026-05-18
+2264.0,364,Biomedical Engineering (2029),Diploma,1,35179.54,GBP,false,2026-10-18
+2265.0,365,Computer Science (2030),Postgraduate,4,17066.27,GBP,true,2026-07-13
+2266.0,366,Data Science (2026),Bachelors,5,20253.22,USD,true,2026-06-11
+2267.0,367,Business Analytics (2027),Masters,5,34490.54,USD,true,2026-02-14
+2268.0,368,Mechanical Engineering (2028),PhD,2,23521.67,CAD,false,2026-05-16
+2269.0,369,Electrical Engineering (2029),Diploma,1,14775.47,CAD,false,2026-07-30
+2270.0,370,Cybersecurity (2030),Postgraduate,3,12843.96,AUD,true,2026-08-26
+2271.0,371,Artificial Intelligence (2026),Bachelors,2,9707.83,AUD,true,2026-07-09
+2272.0,372,Civil Engineering (2027),Masters,4,20374.1,EUR,false,2026-07-10
+2273.0,373,Public Health (2028),PhD,1,23038.34,EUR,true,2026-06-04
+2274.0,374,Pharmacy (2029),Diploma,3,35262.77,EUR,false,2026-03-09
+2275.0,375,Information Systems (2030),Postgraduate,4,34733.75,EUR,false,2026-04-17
+2276.0,376,Biomedical Engineering (2026),Bachelors,5,20847.36,NZD,false,2026-01-26
+2277.0,377,Computer Science (2027),Masters,2,26563.36,SGD,true,2026-09-05
+2278.0,378,Data Science (2028),PhD,1,33255.7,MYR,false,2026-07-13
+2279.0,379,Business Analytics (2029),Diploma,3,27918.99,AED,false,2026-02-13
+2280.0,380,Mechanical Engineering (2030),Postgraduate,4,33730.1,EUR,false,2026-04-17
+2281.0,381,Electrical Engineering (2026),Bachelors,3,37761.38,INR,true,2026-08-09
+2282.0,382,Cybersecurity (2027),Masters,4,22404.92,INR,true,2026-05-12
+2283.0,383,Artificial Intelligence (2028),PhD,2,6577.46,INR,false,2026-10-19
+2284.0,384,Civil Engineering (2029),Diploma,5,26889.17,GBP,false,2026-09-13
+2285.0,385,Public Health (2030),Postgraduate,2,22638.41,GBP,false,2026-09-13
+2286.0,386,Pharmacy (2026),Bachelors,1,15718.34,USD,true,2026-03-18
+2287.0,387,Information Systems (2027),Masters,4,37818.35,USD,true,2026-07-20
+2288.0,388,Biomedical Engineering (2028),PhD,1,36928.07,CAD,true,2026-07-18
+2289.0,389,Computer Science (2029),Diploma,4,8107.64,CAD,false,2026-03-02
+2290.0,390,Data Science (2030),Postgraduate,3,19423.06,AUD,false,2026-02-18
+2291.0,391,Business Analytics (2026),Bachelors,1,29696.14,AUD,false,2026-01-08
+2292.0,392,Mechanical Engineering (2027),Masters,3,26713.95,EUR,false,2026-07-22
+2293.0,393,Electrical Engineering (2028),PhD,2,8095.04,EUR,true,2026-02-28
+2294.0,394,Cybersecurity (2029),Diploma,3,17775.25,EUR,true,2026-04-15
+2295.0,395,Artificial Intelligence (2030),Postgraduate,5,24050.82,EUR,false,2026-09-03
+2296.0,396,Civil Engineering (2026),Bachelors,4,35969.04,NZD,true,2026-01-24
+2297.0,397,Public Health (2027),Masters,3,14641.88,SGD,true,2026-03-28
+2298.0,398,Pharmacy (2028),PhD,5,32406.29,MYR,true,2026-05-05
+2299.0,399,Information Systems (2029),Diploma,2,21100.9,AED,false,2026-06-12
+2300.0,400,Biomedical Engineering (2030),Postgraduate,4,16813.96,EUR,true,2026-03-20

@@ -1,11 +1,301 @@
 university_id,university_name,country,city,ranking,tuition_fee,currency,is_partner,updated_at
-101,University of Oxford,United Kingdom,Oxford,3,35000,GBP,true,2026-10-01
-102,University of Toronto,Canada,Toronto,25,45000,CAD,true,2026-10-05
-103,University of Melbourne,Australia,Melbourne,19,42000,AUD,true,2026-10-08
-104,Arizona State University,USA,Tempe,200,32000,USD,true,2026-10-10
-105,University of Manchester,United Kingdom,Manchester,35,28000,GBP,true,2026-10-12
-106,University of Alberta,Canada,Edmonton,96,30000,CAD,false,2026-10-15
-107,Monash University,Australia,Melbourne,37,41000,AUD,true,2026-10-18
-108,University of Leeds,United Kingdom,Leeds,86,26000,GBP,true,2026-10-20
-109,University of California Los Angeles,USA,Los Angeles,18,43000,USD,false,2026-10-22
-110,University of Sydney,Australia,Sydney,18,44000,AUD,true,2026-10-25
+101.0,Northbridge University 1,India,Chennai,559,12700.46,INR,false,2026-02-12
+102.0,Westford Institute 1,India,Bengaluru,365,9118.37,INR,true,2026-03-24
+103.0,Kingswell University 1,India,Hyderabad,390,18942.61,INR,true,2026-07-06
+104.0,Rivermouth University 1,United Kingdom,London,423,18964.66,GBP,true,2026-05-06
+105.0,Greenwich Metropolitan 1,United Kingdom,Manchester,438,39090.44,GBP,false,2026-02-10
+106.0,Eastlake University 1,United States,Boston,355,11777.09,USD,true,2026-04-18
+107.0,Cedar Valley University 1,United States,Chicago,399,6587.39,USD,false,2026-09-24
+108.0,Brighton Technical University 1,Canada,Toronto,788,37103.54,CAD,false,2026-01-13
+109.0,Summit International University 1,Canada,Vancouver,242,13439.3,CAD,true,2026-03-09
+110.0,Lakeside University 1,Australia,Sydney,289,28514.33,AUD,false,2026-07-11
+111.0,Redwood University 1,Australia,Melbourne,413,21916.67,AUD,false,2026-08-10
+112.0,Stirling University 1,Germany,Berlin,291,24926.07,EUR,true,2026-05-05
+113.0,Pioneer State University 1,Germany,Munich,917,23111.52,EUR,false,2026-07-22
+114.0,Crownfield University 1,France,Paris,513,22879.55,EUR,false,2026-10-28
+115.0,Silverline Institute 1,Ireland,Dublin,778,19360.9,EUR,true,2026-07-20
+116.0,Maple Coast University 1,New Zealand,Auckland,140,22877.08,NZD,false,2026-02-19
+117.0,Harbour City University 1,Singapore,Singapore,205,40261.58,SGD,true,2026-05-16
+118.0,Grandview University 1,Malaysia,Kuala Lumpur,27,26976.7,MYR,false,2026-09-02
+119.0,Oakridge University 1,UAE,Dubai,848,32528.95,AED,false,2026-01-16
+120.0,Meridian University 1,Netherlands,Amsterdam,507,39564.29,EUR,true,2026-07-31
+121.0,Northbridge University 2,India,Chennai,801,28423.18,INR,true,2026-09-23
+122.0,Westford Institute 2,India,Bengaluru,819,30884.7,INR,false,2026-04-24
+123.0,Kingswell University 2,India,Hyderabad,867,23966.01,INR,false,2026-02-02
+124.0,Rivermouth University 2,United Kingdom,London,409,17306.97,GBP,false,2026-01-13
+125.0,Greenwich Metropolitan 2,United Kingdom,Manchester,937,7945.2,GBP,true,2026-03-29
+126.0,Eastlake University 2,United States,Boston,663,28609.11,USD,false,2026-10-16
+127.0,Cedar Valley University 2,United States,Chicago,776,10548.31,USD,false,2026-06-06
+128.0,Brighton Technical University 2,Canada,Toronto,710,37246.45,CAD,false,2026-02-01
+129.0,Summit International University 2,Canada,Vancouver,691,15779.91,CAD,true,2026-01-24
+130.0,Lakeside University 2,Australia,Sydney,333,31333.13,AUD,true,2026-04-14
+131.0,Redwood University 2,Australia,Melbourne,73,28187.15,AUD,true,2026-01-23
+132.0,Stirling University 2,Germany,Berlin,56,13628.29,EUR,true,2026-04-22
+133.0,Pioneer State University 2,Germany,Munich,190,29479.32,EUR,true,2026-06-02
+134.0,Crownfield University 2,France,Paris,943,16987.84,EUR,true,2026-09-25
+135.0,Silverline Institute 2,Ireland,Dublin,103,33301.78,EUR,true,2026-10-13
+136.0,Maple Coast University 2,New Zealand,Auckland,607,28650.86,NZD,false,2026-05-19
+137.0,Harbour City University 2,Singapore,Singapore,917,17616.13,SGD,false,2026-09-29
+138.0,Grandview University 2,Malaysia,Kuala Lumpur,258,36050.02,MYR,false,2026-08-05
+139.0,Oakridge University 2,UAE,Dubai,893,37562.66,AED,true,2026-01-08
+140.0,Meridian University 2,Netherlands,Amsterdam,605,39668.94,EUR,true,2026-06-01
+141.0,Northbridge University 3,India,Chennai,249,40313.32,INR,false,2026-04-15
+113.0,Westford Institute 3,India,Bengaluru,628,33208.41,INR,false,2026-01-30
+143.0,Kingswell University 3,India,Hyderabad,602,7535.38,INR,true,2026-08-09
+144.0,Rivermouth University 3,United Kingdom,London,547,35612.07,GBP,false,2026-07-16
+145.0,Greenwich Metropolitan 3,United Kingdom,Manchester,93,26174.33,GBP,false,2026-04-25
+146.0,Eastlake University 3,United States,Boston,713,37809.65,USD,false,2026-05-12
+147.0,Cedar Valley University 3,United States,Chicago,323,8252.34,USD,true,2026-10-05
+148.0,Brighton Technical University 3,Canada,Toronto,930,21830.17,CAD,false,2026-01-17
+149.0,Summit International University 3,Canada,Vancouver,295,22954.71,CAD,false,2026-08-06
+150.0,Lakeside University 3,Australia,Sydney,781,10824.41,AUD,false,2026-03-31
+151.0,Redwood University 3,Australia,Melbourne,147,25297.81,AUD,false,2026-03-16
+152.0,Stirling University 3,Germany,Berlin,856,35678.49,EUR,true,2026-09-07
+153.0,Pioneer State University 3,Germany,Munich,399,35566.85,EUR,true,2026-08-05
+154.0,Crownfield University 3,France,Paris,315,10148.38,EUR,false,2026-02-26
+155.0,Silverline Institute 3,Ireland,Dublin,840,30076.31,EUR,false,2026-01-28
+156.0,Maple Coast University 3,New Zealand,Auckland,384,25887.61,NZD,false,2026-05-30
+157.0,Harbour City University 3,Singapore,Singapore,530,15093.43,SGD,false,2026-04-10
+158.0,,Malaysia,Kuala Lumpur,649,19020.11,MYR,false,2026-09-13
+159.0,Oakridge University 3,UAE,Dubai,620,37750.71,AED,false,2026-06-29
+160.0,Meridian University 3,Netherlands,Amsterdam,469,13136.89,EUR,true,2026-06-21
+161.0,Northbridge University 4,India,Chennai,714,17496.53,INR,true,2026-04-15
+162.0,Westford Institute 4,India,Bengaluru,870,16805.77,INR,false,2026-01-02
+163.0,Kingswell University 4,India,Hyderabad,766,14571.41,INR,true,2026-01-10
+164.0,Rivermouth University 4,United Kingdom,London,664,25478.4,GBP,false,2026-09-21
+165.0,Greenwich Metropolitan 4,United Kingdom,Manchester,220,35271.82,GBP,false,2026-10-04
+166.0,Eastlake University 4,United States,Boston,314,34735.5,USD,true,2026-08-20
+167.0,Cedar Valley University 4,United States,Chicago,231,11682.69,USD,true,2026-08-23
+168.0,Brighton Technical University 4,Canada,Toronto,164,10040.17,CAD,true,2026-06-10
+169.0,Summit International University 4,Canada,Vancouver,891,38476.89,CAD,true,2026-09-04
+170.0,Lakeside University 4,Australia,Sydney,920,25595.45,AUD,false,2026-05-03
+171.0,Redwood University 4,Australia,Melbourne,225,36346.97,AUD,false,2026-05-24
+172.0,Stirling University 4,Germany,Berlin,282,16852.29,EUR,true,2026-07-17
+173.0,Pioneer State University 4,Germany,Munich,27,21111.65,EUR,true,2026-06-11
+174.0,Crownfield University 4,,Paris,468,21196.61,EUR,true,2026-09-03
+175.0,Silverline Institute 4,Ireland,Dublin,53,8513.58,EUR,true,2026-10-10
+176.0,Maple Coast University 4,New Zealand,Auckland,430,15380.31,NZD,false,2026-01-21
+177.0,Harbour City University 4,Singapore,Singapore,433,33687.7,SGD,true,2026-05-13
+178.0,Grandview University 4,Malaysia,Kuala Lumpur,73,22432.06,MYR,true,2026-10-04
+179.0,Oakridge University 4,UAE,Dubai,639,10719.72,AED,false,2026-10-27
+180.0,Meridian University 4,Netherlands,Amsterdam,493,21067.79,EUR,false,2026-09-20
+181.0,Northbridge University 5,India,Chennai,205,36378.1,INR,true,2026-10-11
+182.0,Westford Institute 5,India,Bengaluru,68,17961.99,INR,false,2026-04-16
+183.0,Kingswell University 5,India,Hyderabad,483,18024.6,INR,false,2026-08-20
+184.0,Rivermouth University 5,United Kingdom,London,27,7051.15,GBP,true,2026-07-09
+185.0,Greenwich Metropolitan 5,United Kingdom,Manchester,342,20346.25,GBP,true,2026-05-05
+186.0,Eastlake University 5,United States,Boston,937,6536.79,USD,true,2026-07-04
+187.0,Cedar Valley University 5,United States,Chicago,538,20807.99,USD,true,2026-01-22
+188.0,Brighton Technical University 5,Canada,Toronto,503,40986.97,CAD,true,2026-10-14
+189.0,Summit International University 5,Canada,Vancouver,29,9462.54,CAD,false,2026-08-26
+190.0,Lakeside University 5,Australia,Sydney,rank-unknown,17297.8,AUD,true,2026-10-22
+191.0,Redwood University 5,Australia,Melbourne,864,23937.82,AUD,true,2026-08-19
+192.0,Stirling University 5,Germany,Berlin,84,10582.2,EUR,false,2026-09-13
+193.0,Pioneer State University 5,Germany,Munich,741,24463.43,EUR,false,2026-04-24
+194.0,Crownfield University 5,France,Paris,675,11980.37,EUR,false,2026-08-09
+195.0,Silverline Institute 5,Ireland,Dublin,294,16141.63,EUR,true,2026-08-25
+196.0,Maple Coast University 5,New Zealand,Auckland,329,9762.08,NZD,false,2026-05-04
+197.0,Harbour City University 5,Singapore,Singapore,548,27955.79,SGD,false,2026-09-10
+198.0,Grandview University 5,Malaysia,Kuala Lumpur,552,8347.9,MYR,false,2026-01-10
+199.0,Oakridge University 5,UAE,Dubai,716,17073.59,AED,false,2026-08-24
+200.0,Meridian University 5,Netherlands,Amsterdam,914,31730.29,EUR,true,2026-04-23
+201.0,Northbridge University 6,India,Chennai,27,34829.21,INR,true,2026-03-18
+202.0,Westford Institute 6,India,Bengaluru,105,9927.59,INR,false,2026-04-19
+203.0,Kingswell University 6,India,Hyderabad,67,20270.72,INR,true,2026-01-13
+204.0,Rivermouth University 6,United Kingdom,London,215,33300.17,GBP,false,2026-06-09
+205.0,Greenwich Metropolitan 6,United Kingdom,Manchester,685,not_available,GBP,false,2026-07-24
+206.0,Eastlake University 6,United States,Boston,708,34808.01,USD,false,2026-03-27
+207.0,Cedar Valley University 6,United States,Chicago,826,27067.45,USD,true,2026-06-09
+208.0,Brighton Technical University 6,Canada,Toronto,141,38542.64,CAD,true,2026-10-13
+209.0,Summit International University 6,Canada,Vancouver,748,23159.11,CAD,true,2026-03-18
+210.0,Lakeside University 6,Australia,Sydney,36,34840.99,AUD,true,2026-06-07
+211.0,Redwood University 6,Australia,Melbourne,249,34336.28,AUD,false,2026-03-30
+212.0,Stirling University 6,Germany,Berlin,662,14020.91,EUR,true,2026-09-07
+213.0,Pioneer State University 6,Germany,Munich,383,33803.31,EUR,true,2026-07-26
+214.0,Crownfield University 6,France,Paris,882,34905.4,EUR,true,2026-01-11
+215.0,Silverline Institute 6,Ireland,Dublin,494,19653.51,EUR,false,2026-09-29
+216.0,Maple Coast University 6,New Zealand,Auckland,741,14936.79,NZD,true,2026-10-16
+217.0,Harbour City University 6,Singapore,Singapore,423,15302.97,SGD,false,2026-10-05
+218.0,Grandview University 6,Malaysia,Kuala Lumpur,29,20047.44,MYR,false,2026-03-02
+219.0,Oakridge University 6,UAE,Dubai,412,32781.8,AED,false,2026-08-31
+220.0,Meridian University 6,Netherlands,Amsterdam,686,29478.99,EUR,sometimes,2026-03-04
+221.0,Northbridge University 7,India,Chennai,170,36087.03,INR,false,2026-01-30
+222.0,Westford Institute 7,India,Bengaluru,549,16491.75,INR,false,2026-05-22
+223.0,Kingswell University 7,India,Hyderabad,384,22722.15,INR,false,2026-05-23
+224.0,Rivermouth University 7,United Kingdom,London,140,17181.49,GBP,false,2026-10-19
+225.0,Greenwich Metropolitan 7,United Kingdom,Manchester,319,36908.88,GBP,true,2026-02-12
+226.0,Eastlake University 7,United States,Boston,488,32658.41,USD,true,2026-04-12
+227.0,Cedar Valley University 7,United States,Chicago,50,11696.34,USD,true,2026-07-18
+228.0,Brighton Technical University 7,Canada,Toronto,388,40013.64,CAD,false,2026-08-04
+229.0,Summit International University 7,Canada,Vancouver,780,23477.57,CAD,false,2026-06-07
+230.0,Lakeside University 7,Australia,Sydney,774,31672.49,AUD,false,2026-06-25
+231.0,Redwood University 7,Australia,Melbourne,78,14180.72,AUD,true,2026-01-20
+232.0,Stirling University 7,Germany,Berlin,147,40137.82,EUR,false,2026-06-14
+233.0,Pioneer State University 7,Germany,Munich,205,21005.36,EUR,false,2026-05-08
+234.0,Crownfield University 7,France,Paris,651,19260.61,EUR,false,2026-09-28
+235.0,Silverline Institute 7,Ireland,Dublin,541,38786.63,EUR,true,2026-04-27
+236.0,Maple Coast University 7,New Zealand,Auckland,625,9871.42,NZD,true,2026-05-18
+237.0,Harbour City University 7,Singapore,Singapore,922,33545.22,SGD,false,2026-07-11
+238.0,Grandview University 7,Malaysia,Kuala Lumpur,880,29083.55,MYR,false,2026-03-02
+239.0,Oakridge University 7,UAE,Dubai,276,31738.51,AED,false,31-31-2026
+240.0,Meridian University 7,Netherlands,Amsterdam,434,35255.67,EUR,true,2026-06-19
+241.0,Northbridge University 8,India,Chennai,428,27298.05,INR,true,2026-04-02
+242.0,Westford Institute 8,India,Bengaluru,749,16385.65,INR,true,2026-02-05
+243.0,Kingswell University 8,India,Hyderabad,624,10837.51,INR,true,2026-04-19
+244.0,Rivermouth University 8,United Kingdom,London,918,33311.28,GBP,true,2026-04-23
+245.0,Greenwich Metropolitan 8,United Kingdom,Manchester,732,11098.36,GBP,false,2026-07-01
+246.0,Eastlake University 8,United States,Boston,865,24071.67,USD,false,2026-01-25
+247.0,Cedar Valley University 8,United States,Chicago,559,16699.99,USD,false,2026-09-04
+248.0,Brighton Technical University 8,Canada,Toronto,945,11306.57,CAD,true,2026-09-20
+249.0,Summit International University 8,Canada,Vancouver,153,24166.8,CAD,false,2026-09-10
+250.0,Lakeside University 8,Australia,Sydney,668,30339.2,AUD,true,2026-01-10
+251.0,Redwood University 8,Australia,Melbourne,49,14148.33,AUD,false,2026-03-23
+252.0,Stirling University 8,Germany,Berlin,332,19186.52,EUR,true,2026-07-10
+253.0,Pioneer State University 8,Germany,Munich,775,20837.7,EUR,false,2026-09-25
+254.0,Crownfield University 8,France,Paris,843,36848.91,EUR,false,2026-06-06
+255.0,Silverline Institute 8,Ireland,Dublin,889,25816.75,EUR,true,2026-07-09
+256.0,Maple Coast University 8,New Zealand,   ,557,28145.2,NZD,true,2026-04-29
+257.0,Harbour City University 8,Singapore,Singapore,203,36377.57,SGD,false,2026-06-24
+258.0,Grandview University 8,Malaysia,Kuala Lumpur,262,12676.39,MYR,true,2026-01-09
+259.0,Oakridge University 8,UAE,Dubai,289,40856.21,AED,false,2026-06-07
+260.0,Meridian University 8,Netherlands,Amsterdam,576,41022.07,EUR,false,2026-10-05
+261.0,Northbridge University 9,India,Chennai,801,18686.2,INR,false,2026-05-12
+262.0,Westford Institute 9,India,Bengaluru,60,21734.19,INR,true,2026-07-14
+263.0,Kingswell University 9,India,Hyderabad,643,36353.27,INR,true,2026-07-15
+264.0,Rivermouth University 9,United Kingdom,London,340,21173.67,GBP,false,2026-06-18
+265.0,Greenwich Metropolitan 9,United Kingdom,Manchester,442,9547.4,GBP,false,2026-01-29
+266.0,Eastlake University 9,United States,Boston,179,38000.58,USD,true,2026-06-09
+267.0,Cedar Valley University 9,United States,Chicago,539,38421.94,USD,false,2026-05-30
+268.0,Brighton Technical University 9,Canada,Toronto,349,18786.32,CAD,false,2026-09-05
+269.0,Summit International University 9,Canada,Vancouver,796,30911.18,CAD,false,2026-07-23
+270.0,Lakeside University 9,Australia,Sydney,25,9291.01,AUD,true,2026-05-02
+271.0,Redwood University 9,Australia,Melbourne,345,25328.97,AUD,false,2026-02-20
+272.0,Stirling University 9,Germany,Berlin,604,32877.97,EUR,false,2026-06-10
+273.0,Pioneer State University 9,Germany,Munich,803,10154.11,EUR,false,2026-01-06
+274.0,Crownfield University 9,France,Paris,445,15230.98,EUR,false,2026-06-13
+275.0,Silverline Institute 9,Ireland,Dublin,633,12324.36,EUR,true,2026-02-09
+276.0,Maple Coast University 9,New Zealand,Auckland,873,20796.9,NZD,false,2026-03-13
+277.0,Harbour City University 9,Singapore,Singapore,39,24041.02,SGD,true,2026-02-02
+278.0,Grandview University 9,Malaysia,Kuala Lumpur,-5,10843.14,MYR,false,2026-05-10
+279.0,Oakridge University 9,UAE,Dubai,427,39108.3,AED,false,2026-08-02
+280.0,Meridian University 9,Netherlands,Amsterdam,784,33366.62,EUR,false,2026-07-08
+281.0,Northbridge University 10,India,Chennai,156,6726.7,INR,false,2026-02-10
+282.0,Westford Institute 10,India,Bengaluru,158,35840.9,INR,false,2026-06-11
+283.0,Kingswell University 10,India,Hyderabad,133,41650.99,INR,false,2026-09-02
+284.0,Rivermouth University 10,United Kingdom,London,797,39340.49,GBP,false,2026-04-22
+285.0,Greenwich Metropolitan 10,United Kingdom,Manchester,819,41347.38,GBP,true,2026-02-14
+286.0,Eastlake University 10,United States,Boston,34,8896.74,USD,false,2026-06-27
+287.0,Cedar Valley University 10,United States,Chicago,522,33581.65,USD,false,2026-10-20
+288.0,Brighton Technical University 10,Canada,Toronto,950,11925.32,CAD,false,2026-02-26
+289.0,Summit International University 10,Canada,Vancouver,96,17192.2,CAD,false,2026-01-19
+290.0,Lakeside University 10,Australia,Sydney,116,34681.52,AUD,false,2026-04-01
+291.0,Redwood University 10,Australia,Melbourne,113,32132.42,AUD,false,2026-10-14
+292.0,Stirling University 10,Germany,Berlin,197,21009.93,EUR,false,2026-09-11
+293.0,Pioneer State University 10,Germany,Munich,115,37521.42,EUR,true,2026-10-28
+294.0,Crownfield University 10,France,Paris,476,11638.4,EUR,false,2026-03-10
+295.0,Silverline Institute 10,Ireland,Dublin,647,25036.17,EUR,false,2026-05-01
+296.0,Maple Coast University 10,New Zealand,Auckland,459,29131.17,NZD,false,2026-08-16
+297.0,Harbour City University 10,Singapore,Singapore,803,9375.0,SGD,false,2026-02-20
+298.0,Grandview University 10,Malaysia,Kuala Lumpur,903,6753.36,MYR,true,2026-07-25
+299.0,Oakridge University 10,UAE,Dubai,874,39873.97,AED,false,2026-10-05
+300.0,Meridian University 10,Netherlands,Amsterdam,781,25182.04,EUR,false,2026-05-15
+301.0,Northbridge University 11,India,Chennai,331,9923.52,INR,true,2026-10-03
+302.0,Westford Institute 11,India,Bengaluru,571,33742.46,US DOLLAR,false,2026-10-16
+303.0,Kingswell University 11,India,Hyderabad,646,41163.87,INR,false,2026-08-26
+304.0,Rivermouth University 11,United Kingdom,London,820,28673.98,GBP,true,2026-01-25
+305.0,Greenwich Metropolitan 11,United Kingdom,Manchester,735,30719.88,GBP,false,2026-07-04
+306.0,Eastlake University 11,United States,Boston,454,35400.55,USD,false,2026-07-21
+307.0,Cedar Valley University 11,United States,Chicago,659,26208.57,USD,true,2026-01-11
+308.0,Brighton Technical University 11,Canada,Toronto,102,30191.98,CAD,false,2026-02-09
+309.0,Summit International University 11,Canada,Vancouver,86,29859.96,CAD,true,2026-09-04
+310.0,Lakeside University 11,Australia,Sydney,553,26629.92,AUD,false,2026-03-28
+311.0,Redwood University 11,Australia,Melbourne,837,36250.09,AUD,false,2026-08-04
+312.0,Stirling University 11,Germany,Berlin,290,17321.89,EUR,true,2026-02-25
+313.0,Pioneer State University 11,Germany,Munich,912,25270.04,EUR,false,2026-01-01
+314.0,Crownfield University 11,France,Paris,808,10680.73,EUR,true,2026-03-26
+315.0,Silverline Institute 11,Ireland,Dublin,914,26618.7,EUR,true,2026-04-22
+316.0,Maple Coast University 11,New Zealand,Auckland,142,11191.45,NZD,true,2026-07-18
+317.0,Harbour City University 11,Singapore,Singapore,279,17746.59,SGD,false,2026-06-04
+318.0,Grandview University 11,Malaysia,Kuala Lumpur,200,15830.13,MYR,false,2026-09-12
+319.0,Oakridge University 11,UAE,Dubai,229,24894.81,AED,true,2026-09-24
+320.0,Meridian University 11,Netherlands,Amsterdam,883,35983.06,EUR,true,2026-09-17
+321.0,Northbridge University 12,India,Chennai,815,39778.64,INR,true,2026-10-07
+322.0,Westford Institute 12,India,Bengaluru,304,12152.93,INR,false,2026-04-27
+,Kingswell University 12,India,Hyderabad,27,25191.46,INR,false,2026-08-07
+324.0,Rivermouth University 12,United Kingdom,London,479,22664.17,GBP,false,2026-10-09
+325.0,Greenwich Metropolitan 12,United Kingdom,Manchester,665,29138.57,GBP,false,2026-04-20
+326.0,Eastlake University 12,United States,Boston,918,23166.28,USD,false,2026-03-06
+327.0,Cedar Valley University 12,United States,Chicago,111,37497.82,USD,false,2026-04-08
+328.0,Brighton Technical University 12,Canada,Toronto,936,39596.94,CAD,true,2026-10-14
+329.0,Summit International University 12,Canada,Vancouver,156,8104.18,CAD,true,2026-09-29
+330.0,Lakeside University 12,Australia,Sydney,264,7555.43,AUD,true,2026-01-29
+331.0,Redwood University 12,Australia,Melbourne,33,14074.76,AUD,false,2026-01-11
+332.0,Stirling University 12,Germany,Berlin,28,37097.74,EUR,true,2026-10-22
+333.0,Pioneer State University 12,Germany,Munich,538,24714.36,EUR,true,2026-09-11
+334.0,Crownfield University 12,France,Paris,445,33572.82,EUR,true,2026-04-22
+335.0,Silverline Institute 12,Ireland,Dublin,817,29689.92,EUR,true,2026-02-25
+336.0,Maple Coast University 12,New Zealand,Auckland,588,31484.08,NZD,false,2026-01-27
+337.0,Harbour City University 12,Singapore,Singapore,733,26734.21,SGD,false,2026-09-05
+338.0,Grandview University 12,Malaysia,Kuala Lumpur,486,35139.26,MYR,true,2026-08-24
+339.0,Oakridge University 12,UAE,Dubai,561,22188.06,AED,false,2026-09-27
+340.0,Meridian University 12,Netherlands,Amsterdam,568,36287.92,EUR,true,2026-05-15
+341.0,Northbridge University 13,India,Chennai,356,21472.71,INR,true,2026-03-08
+342.0,Westford Institute 13,India,Bengaluru,85,21503.8,INR,false,2026-05-18
+343.0,Kingswell University 13,India,Hyderabad,220,35311.21,INR,false,2026-03-21
+344.0,Rivermouth University 13,United Kingdom,London,648,10648.91,GBP,true,2026-03-15
+345.0,Greenwich Metropolitan 13,United Kingdom,Manchester,499,11125.4,GBP,false,2026-01-03
+346.0,Eastlake University 13,United States,Boston,152,8424.65,USD,false,2026-01-21
+347.0,Cedar Valley University 13,United States,Chicago,866,26978.35,USD,false,2026-08-12
+348.0,Brighton Technical University 13,Canada,Toronto,526,39781.31,CAD,true,2026-02-09
+349.0,Summit International University 13,Canada,Vancouver,815,22547.58,CAD,true,2026-03-07
+350.0,Lakeside University 13,Australia,Sydney,863,,AUD,false,2026-08-19
+351.0,Redwood University 13,Australia,Melbourne,154,14530.38,AUD,true,2026-08-08
+352.0,Stirling University 13,Germany,Berlin,333,28031.49,EUR,true,2026-05-15
+353.0,Pioneer State University 13,Germany,Munich,391,13343.7,EUR,false,2026-10-09
+354.0,Crownfield University 13,France,Paris,576,20299.94,EUR,false,2026-01-20
+355.0,Silverline Institute 13,Ireland,Dublin,875,7555.97,EUR,true,2026-08-16
+356.0,Maple Coast University 13,New Zealand,Auckland,926,21556.61,NZD,false,2026-07-08
+357.0,Harbour City University 13,Singapore,Singapore,413,12768.24,SGD,true,2026-04-21
+358.0,Grandview University 13,Malaysia,Kuala Lumpur,124,32172.66,MYR,true,2026-04-24
+359.0,Oakridge University 13,UAE,Dubai,604,8278.28,AED,false,2026-10-22
+360.0,Meridian University 13,Netherlands,Amsterdam,526,24687.03,EUR,false,2026-02-17
+361.0,Northbridge University 14,India,Chennai,708,27397.12,INR,false,2026-04-18
+362.0,Westford Institute 14,India,Bengaluru,921,12837.7,INR,false,2026-04-07
+363.0,Kingswell University 14,India,Hyderabad,103,36463.57,INR,false,2026-05-30
+364.0,Rivermouth University 14,United Kingdom,London,703,13964.56,GBP,true,2026-03-29
+365.0,Greenwich Metropolitan 14,United Kingdom,Manchester,629,28106.27,GBP,true,2026-02-28
+366.0,Eastlake University 14,United States,Boston,901,32283.39,USD,false,2026-03-17
+367.0,Cedar Valley University 14,United States,Chicago,877,37350.79,USD,true,2026-02-04
+368.0,Brighton Technical University 14,Canada,Toronto,770,22456.57,CAD,false,2026-09-06
+369.0,Summit International University 14,Canada,Vancouver,468,15199.27,CAD,true,2026-10-23
+370.0,Lakeside University 14,Australia,Sydney,501,11466.46,AUD,false,2026-07-17
+371.0,Redwood University 14,Australia,Melbourne,891,25382.38,AUD,true,2026-05-04
+372.0,Stirling University 14,Germany,Berlin,177,7928.85,EUR,true,2026-10-05
+373.0,Pioneer State University 14,Germany,Munich,938,39148.96,EUR,true,2026-08-03
+374.0,Crownfield University 14,France,Paris,566,32944.98,EUR,false,2026-01-24
+375.0,Silverline Institute 14,Ireland,Dublin,755,7387.46,EUR,true,2026-07-12
+376.0,Maple Coast University 14,New Zealand,Auckland,428,25966.34,NZD,true,2026-07-15
+377.0,Harbour City University 14,Singapore,Singapore,870,11788.95,SGD,false,2026-02-14
+378.0,Grandview University 14,Malaysia,Kuala Lumpur,172,29337.86,MYR,false,2026-09-14
+379.0,Oakridge University 14,UAE,Dubai,801,32844.98,AED,true,2026-10-12
+380.0,Meridian University 14,Netherlands,Amsterdam,704,37246.83,EUR,true,2026-02-04
+381.0,Northbridge University 15,India,Chennai,66,33439.29,INR,true,2026-08-15
+382.0,Westford Institute 15,India,Bengaluru,549,39490.15,INR,true,2026-03-26
+383.0,Kingswell University 15,India,Hyderabad,733,19120.96,INR,false,2026-01-21
+384.0,Rivermouth University 15,United Kingdom,London,616,17714.75,GBP,true,2026-04-03
+385.0,Greenwich Metropolitan 15,United Kingdom,Manchester,252,23148.47,GBP,false,2026-08-04
+386.0,Eastlake University 15,United States,Boston,102,33985.71,USD,true,2026-03-04
+387.0,Cedar Valley University 15,United States,Chicago,410,35635.15,USD,true,2026-09-27
+388.0,Brighton Technical University 15,Canada,Toronto,405,36253.22,CAD,false,2026-08-03
+389.0,Summit International University 15,Canada,Vancouver,296,6833.65,CAD,false,2026-02-15
+390.0,Lakeside University 15,Australia,Sydney,665,28596.06,AUD,false,2026-05-30
+391.0,Redwood University 15,Australia,Melbourne,263,38114.41,AUD,false,2026-08-19
+392.0,Stirling University 15,Germany,Berlin,856,15028.42,EUR,true,2026-05-18
+393.0,Pioneer State University 15,Germany,Munich,602,24640.63,EUR,true,2026-03-21
+394.0,Crownfield University 15,France,Paris,596,10313.13,EUR,false,2026-09-27
+395.0,Silverline Institute 15,Ireland,Dublin,177,10211.37,EUR,false,2026-10-01
+396.0,Maple Coast University 15,New Zealand,Auckland,630,38807.31,NZD,false,2026-07-10
+397.0,Harbour City University 15,Singapore,Singapore,78,14862.32,SGD,false,2026-08-07
+398.0,Grandview University 15,Malaysia,Kuala Lumpur,793,13404.99,MYR,false,2026-02-20
+399.0,Oakridge University 15,UAE,Dubai,291,9409.98,AED,false,2026-03-22
+400.0,Meridian University 15,Netherlands,Amsterdam,631,28795.32,EUR,false,2026-05-27
