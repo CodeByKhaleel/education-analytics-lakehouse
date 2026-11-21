@@ -1,40 +1,44 @@
-# Education Analytics Lakehouse
+# Education Analytics Lakehouse — Dataset v2
 
-An end-to-end Data Engineering project focused on the international education industry.
+Four synthetic CSV source datasets, 300 raw rows each:
+- universities.csv
+- courses.csv
+- students.csv
+- applications.csv
 
-## Project Overview
+## Important usage guidance
+These are deliberately imperfect RAW source files for Bronze/Silver engineering practice.
+They contain nulls, blank/whitespace values, duplicate primary keys, malformed values,
+invalid domain values, and selected orphan foreign keys.
 
-This project builds a data platform to process and analyze education-related data, including universities, courses, intakes, student applications, and enrollments.
+Do not clean these files manually. Preserve them as source data and implement validation,
+quarantine/reject handling, deduplication, type casting and referential-integrity checks
+in your Silver processing.
 
-The platform will use PySpark and Databricks to ingest, transform, validate, and aggregate data using the Medallion Architecture.
+## Existing project schema compatibility
+- universities: university_id, university_name, country, city, ranking, tuition_fee,
+  currency, is_partner, updated_at
+- courses: course_id, university_id, course_name, degree_level, duration_years,
+  annual_tuition_fee, currency, is_active, updated_at
+- students: student_id, student_name, email, nationality, education_level,
+  graduation_year, created_at
+- applications: application_id, student_id, course_id, intake, application_date,
+  application_status, application_fee_paid, updated_at
 
-## Technology Stack
+## Data quality scenarios seeded
+- Duplicate identifiers in all four datasets.
+- Null identifiers and required attributes.
+- Invalid integer, decimal, boolean and date values.
+- Invalid categorical/domain values.
+- Empty and whitespace-only strings.
+- Invalid email formats.
+- Orphan university, student and course references.
 
-- Python
-- Apache Spark
-- PySpark
-- Azure Databricks
-- Delta Lake
-- Spark SQL
-- Git and GitHub
+## Recommended ingestion
+For the raw Bronze landing step, read CSV columns as strings (inferSchema=False)
+or use an explicit raw schema. This prevents malformed values from causing the
+entire CSV read to fail and preserves source values for later validation.
+Cast to typed columns in Silver using safe casts and record rejected rows with
+a rejection_reason, source_file and ingestion_timestamp.
 
-## Architecture
-
-The project follows the Medallion Architecture:
-
-- **Bronze:** Raw ingested data.
-- **Silver:** Cleaned and validated data.
-- **Gold:** Business-ready analytical datasets.
-
-## Project Goals
-
-1. Build scalable data ingestion pipelines.
-2. Implement data cleaning and transformation using PySpark.
-3. Store data using Delta Lake.
-4. Implement incremental processing.
-5. Build analytical datasets for education business use cases.
-6. Schedule and monitor data pipelines.
-
-## Project Status
-
-In development.
+All names, institutions and records are synthetic. Do not treat this as real student data.
